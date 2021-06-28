@@ -4,11 +4,11 @@
   
   
   <entry>
-    <title>hhahhh</title>
+    <title>我想我的女朋友</title>
     <link href="/2021/06/26/hhahhh/"/>
     <url>/2021/06/26/hhahhh/</url>
     
-    <content type="html"><![CDATA[<h3 id="hahhahahahaha"><a href="#hahhahahahaha" class="headerlink" title="hahhahahahaha"></a>hahhahahahaha</h3>]]></content>
+    <content type="html"><![CDATA[<h1 id="小高小高小高"><a href="#小高小高小高" class="headerlink" title="小高小高小高"></a>小高小高小高</h1>]]></content>
     
     
     
@@ -17,17 +17,25 @@
   
   
   <entry>
-    <title>123</title>
+    <title>从零搞清楚什么是构造函数</title>
     <link href="/2021/06/26/123/"/>
     <url>/2021/06/26/123/</url>
     
-    <content type="html"><![CDATA[<h4 id="nimasile232313123131232"><a href="#nimasile232313123131232" class="headerlink" title="nimasile232313123131232"></a>nimasile232313123131232</h4>]]></content>
+    <content type="html"><![CDATA[<h1 id="什么是构造函数"><a href="#什么是构造函数" class="headerlink" title="什么是构造函数"></a>什么是构造函数</h1><p>概念：通过 new 关键字来调用的函数，称为构造函数</p>]]></content>
     
+    
+    <categories>
+      
+      <category>JavaScript</category>
+      
+    </categories>
     
     
     <tags>
       
-      <tag>asdasdasd</tag>
+      <tag>js</tag>
+      
+      <tag>构造函数</tag>
       
     </tags>
     
