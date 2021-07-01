@@ -234,8 +234,9 @@
 <figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs js"><span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">showLocation</span>(<span class="hljs-params"></span>) </span>&#123;<br>  <span class="hljs-keyword">var</span> scrollTop = <span class="hljs-built_in">document</span>.body.scrollTop || <span class="hljs-built_in">document</span>.documentElement.scrollTop;<br>  <span class="hljs-built_in">console</span>.log(<span class="hljs-string">&quot;滚动条位置：&quot;</span> + scrollTop);<br>&#125;<br><span class="hljs-built_in">window</span>.onscroll = showLocation;<br></code></pre></td></tr></table></figure>
 
 <p>这时候你就会发现，好家伙！只需轻轻一滚，就能执行<strong>6-7 次</strong>！</p>
-<img src="/.io//log.png" srcset="/img/loading.gif" lazyload width="300" height="300">
+<!-- <img src="./asd/log.png" srcset="/img/loading.gif" lazyload width="300" height="300"> -->
 
+<p><img src="https://raw.githubusercontent.com/happy-mouse/happy-mouse.github.io/master/img/blogShow/log.png" srcset="/img/loading.gif" lazyload></p>
 <p>然而实际上我们并不需要如此高频的反馈，毕竟浏览器的性能是有限的，不应该浪费在这里，所以接着讨论如何优化这种场景</p>
 <h2 id="防抖-debounce"><a href="#防抖-debounce" class="headerlink" title="防抖(debounce)"></a>防抖(debounce)</h2><p><strong>触发事件后在 n 秒内函数只能执行一次，如果在 n 秒内又触发了事件，则会重新计算函数执行时间</strong></p>
 <p>直接看代码</p>
@@ -298,7 +299,7 @@
                     
                     
                       <a href="/2021/05/16/Closure/">
-                        <span class="hidden-mobile">让我头疼的闭包</span>
+                        <span class="hidden-mobile">谈谈闭包</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>
